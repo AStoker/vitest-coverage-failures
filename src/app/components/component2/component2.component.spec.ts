@@ -16,7 +16,10 @@ describe('Component2Component', () => {
   });
 
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
+  // Create 25 dummy tests to simulate a large test suite
+  for (let i = 1; i <= 25; i++) {
+    it('should create: ' + i, () => {
+      expect(component).toBeTruthy();
+    });
+  }
 });
