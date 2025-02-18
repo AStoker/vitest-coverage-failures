@@ -22,13 +22,13 @@ Experiencing the vitest coverage failure is not consistent. It may not happen ev
 Vitest Output:
 
 ``` shell
-[INFO 11:44:36 AM] [Worker] Running coverage with configuration: {
+[INFO 3:27:47 PM] [Worker] Running coverage with configuration: {
   provider: 'v8',
   enabled: true,
   all: true,
   clean: true,
   cleanOnRerun: true,
-  reportsDirectory: 'C:/Users/XXXXXXXX/AppData/Local/Temp/vitest-coverage-c7037ae8-54e4-4b9b-9d45-20f9a7b275e3',
+  reportsDirectory: 'C:/Users/XXXXXXXXX/AppData/Local/Temp/vitest-coverage-98af695a-fc89-476f-8ad9-598b78139b38',
   exclude: [
     'coverage/**',
     'dist/**',
@@ -66,41 +66,106 @@ Vitest Output:
   processingConcurrency: 20,
   include: [ '**/*.{ts,html}' ]
 
-[11:44:36 AM] [VSCODE] File changed: README.md
-[INFO 11:44:36 AM] Running all tests in vitest-coverage-failures
-[11:44:36 AM] Starting a test run because src/app/app.component.spec.ts src/app/components/component1/component1.component.spec.ts src/app/components/component2/component2.component.spec.ts src/app/components/component3/component3.component.spec.ts triggered a watch rerun event
-[11:44:36 AM] Enqueuing "should create the app"
-[11:44:36 AM] Enqueuing "should have the 'vitest-coverage-failures' title"
-[11:44:36 AM] Enqueuing "should render title"
-[11:44:36 AM] Enqueuing "should create"
-[11:44:36 AM] Enqueuing "should create"
-[11:44:36 AM] Enqueuing "should create"
-[Error 11:44:36 AM] [API] Failed to notify Vitest about file change [Error Error] [birpc] rpc is closed, cannot call "onFilesChanged"
-Error: [birpc] rpc is closed, cannot call "onFilesChanged"
-    at Proxy.C (c:\Users\XXXXXXXX\.vscode\extensions\vitest.explorer-1.14.3\dist\extension.js:17:3172)
-    at c:\Users\XXXXXXXX\.vscode\extensions\vitest.explorer-1.14.3\dist\extension.js:18:5594
-    at Timeout._onTimeout (c:\Users\XXXXXXXX\.vscode\extensions\vitest.explorer-1.14.3\dist\extension.js:18:7758)
-    at listOnTimeout (node:internal/timers:581:17)
-    at processTimers (node:internal/timers:519:7)
-[11:44:36 AM] [API] Vitest WebSocket connection closed, cannot call RPC anymore.
-[11:44:36 AM] Ending test run 
-[11:44:36 AM] Test run promise is finished, the queue is 0
-[Error 11:44:36 AM] [API] Failed to close Vitest RPC [Error Error] [birpc] rpc is closed, cannot call "close"
+[INFO 3:27:50 PM] Running all tests in vitest-coverage-failures
+[3:27:50 PM] Starting a test run because src/app/app.component.spec.ts src/app/components/component1/component1.component.spec.ts src/app/components/component2/component2.component.spec.ts src/app/components/component3/component3.component.spec.ts triggered a watch rerun event
+[3:27:50 PM] Enqueuing "should create the app"
+[3:27:50 PM] Enqueuing "should have the 'vitest-coverage-failures' title"
+[3:27:50 PM] Enqueuing "should render title"
+[3:27:50 PM] Enqueuing "should create: 1"
+[3:27:50 PM] Enqueuing "should create: 2"
+[3:27:50 PM] Enqueuing "should create: 3"
+[3:27:50 PM] Enqueuing "should create: 4"
+[3:27:50 PM] Enqueuing "should create: 5"
+[3:27:50 PM] Enqueuing "should create: 6"
+[3:27:50 PM] Enqueuing "should create: 7"
+[3:27:50 PM] Enqueuing "should create: 8"
+[3:27:50 PM] Enqueuing "should create: 9"
+[3:27:50 PM] Enqueuing "should create: 10"
+[3:27:50 PM] Enqueuing "should create: 11"
+[3:27:50 PM] Enqueuing "should create: 12"
+[3:27:50 PM] Enqueuing "should create: 13"
+[3:27:50 PM] Enqueuing "should create: 14"
+[3:27:50 PM] Enqueuing "should create: 15"
+[3:27:50 PM] Enqueuing "should create: 16"
+[3:27:50 PM] Enqueuing "should create: 17"
+[3:27:50 PM] Enqueuing "should create: 18"
+[3:27:50 PM] Enqueuing "should create: 19"
+[3:27:50 PM] Enqueuing "should create: 20"
+[3:27:50 PM] Enqueuing "should create: 21"
+[3:27:50 PM] Enqueuing "should create: 22"
+[3:27:50 PM] Enqueuing "should create: 23"
+[3:27:50 PM] Enqueuing "should create: 24"
+[3:27:50 PM] Enqueuing "should create: 25"
+[3:27:50 PM] Enqueuing "should create: 1"
+[3:27:50 PM] Enqueuing "should create: 2"
+[3:27:50 PM] Enqueuing "should create: 3"
+[3:27:50 PM] Enqueuing "should create: 4"
+[3:27:50 PM] Enqueuing "should create: 5"
+[3:27:50 PM] Enqueuing "should create: 6"
+[3:27:50 PM] Enqueuing "should create: 7"
+[3:27:50 PM] Enqueuing "should create: 8"
+[3:27:50 PM] Enqueuing "should create: 9"
+[3:27:50 PM] Enqueuing "should create: 10"
+[3:27:50 PM] Enqueuing "should create: 11"
+[3:27:50 PM] Enqueuing "should create: 12"
+[3:27:50 PM] Enqueuing "should create: 13"
+[3:27:50 PM] Enqueuing "should create: 14"
+[3:27:50 PM] Enqueuing "should create: 15"
+[3:27:50 PM] Enqueuing "should create: 16"
+[3:27:50 PM] Enqueuing "should create: 17"
+[3:27:50 PM] Enqueuing "should create: 18"
+[3:27:50 PM] Enqueuing "should create: 19"
+[3:27:50 PM] Enqueuing "should create: 20"
+[3:27:50 PM] Enqueuing "should create: 21"
+[3:27:50 PM] Enqueuing "should create: 22"
+[3:27:50 PM] Enqueuing "should create: 23"
+[3:27:50 PM] Enqueuing "should create: 24"
+[3:27:50 PM] Enqueuing "should create: 25"
+[3:27:50 PM] Enqueuing "should create: 1"
+[3:27:50 PM] Enqueuing "should create: 2"
+[3:27:50 PM] Enqueuing "should create: 3"
+[3:27:50 PM] Enqueuing "should create: 4"
+[3:27:50 PM] Enqueuing "should create: 5"
+[3:27:50 PM] Enqueuing "should create: 6"
+[3:27:50 PM] Enqueuing "should create: 7"
+[3:27:50 PM] Enqueuing "should create: 8"
+[3:27:50 PM] Enqueuing "should create: 9"
+[3:27:50 PM] Enqueuing "should create: 10"
+[3:27:50 PM] Enqueuing "should create: 11"
+[3:27:50 PM] Enqueuing "should create: 12"
+[3:27:50 PM] Enqueuing "should create: 13"
+[3:27:50 PM] Enqueuing "should create: 14"
+[3:27:50 PM] Enqueuing "should create: 15"
+[3:27:50 PM] Enqueuing "should create: 16"
+[3:27:50 PM] Enqueuing "should create: 17"
+[3:27:50 PM] Enqueuing "should create: 18"
+[3:27:50 PM] Enqueuing "should create: 19"
+[3:27:50 PM] Enqueuing "should create: 20"
+[3:27:50 PM] Enqueuing "should create: 21"
+[3:27:50 PM] Enqueuing "should create: 22"
+[3:27:50 PM] Enqueuing "should create: 23"
+[3:27:50 PM] Enqueuing "should create: 24"
+[3:27:50 PM] Enqueuing "should create: 25"
+[3:27:50 PM] [API] Vitest WebSocket connection closed, cannot call RPC anymore.
+[3:27:50 PM] Ending test run 
+[3:27:50 PM] Test run promise is finished, the queue is 0
+[Error 3:27:50 PM] [API] Failed to close Vitest RPC [Error Error] [birpc] rpc is closed, cannot call "close"
 Error: [birpc] rpc is closed, cannot call "close"
-    at Proxy.C (c:\Users\XXXXXXXX\.vscode\extensions\vitest.explorer-1.14.3\dist\extension.js:17:3172)
-    at At.dispose (c:\Users\XXXXXXXX\.vscode\extensions\vitest.explorer-1.14.3\dist\extension.js:18:6262)
-    at c:\Users\XXXXXXXX\.vscode\extensions\vitest.explorer-1.14.3\dist\extension.js:18:4597
+    at Proxy.C (c:\Users\XXXXXXXXX\.vscode\extensions\vitest.explorer-1.14.3\dist\extension.js:17:3172)
+    at At.dispose (c:\Users\XXXXXXXXX\.vscode\extensions\vitest.explorer-1.14.3\dist\extension.js:18:6262)
+    at c:\Users\XXXXXXXXX\.vscode\extensions\vitest.explorer-1.14.3\dist\extension.js:18:4597
     at Array.map (<anonymous>)
-    at Ar.dispose (c:\Users\XXXXXXXX\.vscode\extensions\vitest.explorer-1.14.3\dist\extension.js:18:4588)
-    at c:\Users\XXXXXXXX\.vscode\extensions\vitest.explorer-1.14.3\dist\extension.js:22:11964
-    at s.r (c:\Users\XXXXXXXX\.vscode\extensions\vitest.explorer-1.14.3\dist\extension.js:18:4355)
+    at Ar.dispose (c:\Users\XXXXXXXXX\.vscode\extensions\vitest.explorer-1.14.3\dist\extension.js:18:4588)
+    at c:\Users\XXXXXXXXX\.vscode\extensions\vitest.explorer-1.14.3\dist\extension.js:22:11964
+    at s.r (c:\Users\XXXXXXXXX\.vscode\extensions\vitest.explorer-1.14.3\dist\extension.js:18:4355)
     at s.emit (node:events:518:28)
-    at ChildProcess.<anonymous> (c:\Users\XXXXXXXX\.vscode\extensions\vitest.explorer-1.14.3\dist\extension.js:18:975)
+    at ChildProcess.<anonymous> (c:\Users\XXXXXXXXX\.vscode\extensions\vitest.explorer-1.14.3\dist\extension.js:18:975)
     at ChildProcess.emit (node:events:530:35)
     at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
-[Error 11:44:41 AM] [API] Failed to close Vitest process [Error Error] Vitest process did not exit in time
+[Error 3:27:55 PM] [API] Failed to close Vitest process [Error Error] Vitest process did not exit in time
 Error: Vitest process did not exit in time
-    at Timeout._onTimeout (c:\Users\XXXXXXXX\.vscode\extensions\vitest.explorer-1.14.3\dist\extension.js:18:6448)
+    at Timeout._onTimeout (c:\Users\XXXXXXXXX\.vscode\extensions\vitest.explorer-1.14.3\dist\extension.js:18:6448)
     at listOnTimeout (node:internal/timers:581:17)
     at processTimers (node:internal/timers:519:7)
+
 ```
